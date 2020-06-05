@@ -6,9 +6,7 @@
             (return-from getFizzBuzzString "Fizz")
             ( if(= (mod i 5) 0)
                 (return-from getFizzBuzzString "Buzz")
-                (return-from getFizzBuzzString 
-                    i
-                )
+                (return-from getFizzBuzzString i)
             )
         )
     )
